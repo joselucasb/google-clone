@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" translate="yes">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="José Lucas" />
+    <link rel="shortcut icon" href="public/assets/icons/google-icon.ico" />
+    <title>Google</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/styles/utils/config.css" />
+    <link rel="stylesheet" href="./public/styles/animation.css" />
+    <link rel="stylesheet" href="./public/styles/main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header class="menu">
+        <div class="menu-section left">
+          <img
+            class="menu-icon"
+            src="./public/assets/burger-icon.svg"
+            alt="Menu Icon"
+          />
+
+          <a href="#" class="menu-link active">All</a>
+          <a href="#" class="menu-link">Images</a>
+        </div>
+
+        <div class="menu-section right">
+          <img
+            class="menu-more-icon"
+            src="./public/assets/more-icon.svg"
+            alt="More applications"
+          />
+
+          <div class="menu-profile">
+            <img class="menu-avatar" src="./public/assets/circle-frame.svg" />
+
+            <img
+              class="menu-avatar-frame"
+              src="./public/assets/circle-frame.svg"
+              alt="profile menu frame"
+            />
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <img
+          class="main-logo animate-up"
+          src="./public/assets/logo.svg"
+          alt="Logo"
+        />
+
+        <form class="form-block" action="#">
+          <div class="main-search-icon">
+            <img src="./public/assets/search-icon.svg" alt="search icon" />
+          </div>
+
+          <input class="main-search" type="text" autofocus autocomplete="off" />
+        </form>
+
+        <div class="main-after">
+          <div class="buttons">
+            <a>Search Google</a>
+            <a>I'm lucky</a>
+          </div>
+
+          <span>Available from Google at: Portuguese</span>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-section footer-top">
+          <p>From Brazil</p>
+        </div>
+
+        <div class="footer-section footer-bottom">
+          <ul>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">publicity</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>

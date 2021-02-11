@@ -1,0 +1,13 @@
+@keyframes up {
+  from {
+    transform: translateY(-25px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-up {
+  animation: up 1.6s linear infinite alternate;
+}
