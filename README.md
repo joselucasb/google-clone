@@ -9,7 +9,7 @@ Propósitos de :book: estudos.
 
 [<img src="https://avatars.githubusercontent.com/u/74370960?v=4" width="80px;"/>](https://github.com/joselucasb)
 
-[José Lucas B's](https://www.github.com/joselucasb/)
+[José Lucas](https://www.github.com/joselucasb/)
 
 ## :information_source: Tecnologias
 
